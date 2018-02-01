@@ -43,7 +43,7 @@
         <li>Email:
           <a href="mailto:hi@yasmin.com">hi@yasmin.com</a>
         </li>
-        <li>Instagram
+        <li>Instagram:
           <a href="https://instagram.com">yasmin</a>
         </li>
       </ul>

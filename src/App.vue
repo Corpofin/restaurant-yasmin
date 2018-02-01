@@ -27,9 +27,13 @@ export default {
 }
 
 body {
-  background: url(statics/yasmins.jpg) no-repeat center center;
-  background-size: cover;
+  background-color: #795548;
   font-family: 'Roboto', sans-serif;
+
+  @media (min-width: 768px) {
+    background: url(statics/bg.jpg) no-repeat center center;
+    background-size: cover;
+  }
 }
 
 .layout-page-container {

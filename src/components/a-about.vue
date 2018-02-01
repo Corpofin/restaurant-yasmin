@@ -43,9 +43,6 @@
         <li>Email:
           <a href="mailto:hi@yasmin.com">hi@yasmin.com</a>
         </li>
-        <li>Instagram:
-          <a href="https://instagram.com">yasmin</a>
-        </li>
       </ul>
 
       <gmap-map v-bind:center="center" v-bind:zoom="7" style="height: 225px; max-width: 400px; width: 100%;">
@@ -90,7 +87,7 @@ section {
   text-align: center;
 
   @media (min-width: 1200px) {
-    min-height: calc(1281px - 4rem);
+    min-height: calc(1254px - 4rem);
     position: relative;
   }
 }

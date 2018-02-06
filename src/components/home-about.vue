@@ -57,7 +57,6 @@
 import { openURL, QBtn } from 'quasar'
 
 export default {
-  name: 'AABout',
   components: {
     QBtn
   },
@@ -93,14 +92,15 @@ section {
 }
 
 .wrapper {
-  background: url('/statics/interior.jpg') no-repeat center center;
-  background-size: cover;
+  background-color: #795548;
   display: grid;
   grid-row-gap: 1rem;
   margin: 0 auto;
   max-width: 768px;
 
   @media (min-width: 576px) {
+    background: url('/statics/interior.jpg') no-repeat center center;
+    background-size: cover;
     grid-row-gap: 0;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: auto;

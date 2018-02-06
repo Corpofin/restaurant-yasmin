@@ -17,7 +17,6 @@
 
 <script>
 export default {
-  name: 'ASpecial',
   computed: {
     specialMenu() {
       return this.$store.getters.specialMenu

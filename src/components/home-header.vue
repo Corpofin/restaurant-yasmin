@@ -2,7 +2,7 @@
 <section>
   <div class="flex column justify-center items-center text-center">
     <h1>Yasmin's</h1>
-    
+
     <p>BRITISH SPECIALITIES</p>
   </div>
 </section>
@@ -10,7 +10,6 @@
 
 <script>
 export default {
-  name: 'AName'
 }
 </script>
 

@@ -27,7 +27,6 @@
 import { openURL, QBtn } from 'quasar'
 
 export default {
-  name: 'RReservation',
   components: {
     QBtn
   },

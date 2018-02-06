@@ -7,7 +7,7 @@
       <q-item>
         <q-item-main>
           <q-item-tile label>{{ item.title }}</q-item-tile>
-          
+
           <q-item-tile sublabel>{{ item.description }}</q-item-tile>
         </q-item-main>
 
@@ -24,7 +24,6 @@
 import { QList, QItem, QItemMain, QItemTile, QItemSide } from 'quasar'
 
 export default {
-  name: 'AMenuType',
   components: {
     QList,
     QItem,

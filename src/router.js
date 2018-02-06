@@ -1,5 +1,5 @@
-import RHome from '@/r-home.vue'
-import RReservation from '@/r-reservation.vue'
+import Home from '@/home.vue'
+import Reservation from '@/reservation.vue'
 
 import Vue from 'vue'
 import VueRouter from 'vue-router'
@@ -30,7 +30,7 @@ export default new VueRouter({
 
   mode: 'history',
   routes: [
-    { path: '/', component: RHome },
-    { path: '/reservation', component: RReservation }
+    { path: '/', component: Home },
+    { path: '/reservation', component: Reservation }
   ]
 })

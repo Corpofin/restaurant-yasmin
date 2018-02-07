@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import HomeAbout from './home-about.vue'
-import HomeFiller from './home-filler.vue'
-import HomeMenu from './home-menu.vue'
-import HomeHeader from './home-header.vue'
-import HomeSpecial from './home-special.vue'
-import HomeSpecialities from './home-specialities.vue'
+import HomeAbout from './home-about'
+import HomeFiller from './home-filler'
+import HomeMenu from './home-menu'
+import HomeHeader from './home-header'
+import HomeSpecial from './home-special'
+import HomeSpecialities from './home-specialities'
 
 export default {
   components: {

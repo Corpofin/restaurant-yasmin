@@ -2,8 +2,8 @@
 <section class="bg-white layout-padding text-primary">
   <h2 class="text-center">Menu</h2>
 
-  <a-menu-type name="dinner" title="FOOD &amp; APERITIVES"></a-menu-type>
-  <a-menu-type name="dessert" title="DESSERTS"></a-menu-type>
+  <home-menu-type name="dinner" title="FOOD &amp; APERITIVES" />
+  <home-menu-type name="dessert" title="DESSERTS" />
 </section>
 </template>
 

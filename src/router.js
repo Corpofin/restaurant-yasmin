@@ -1,5 +1,5 @@
-import Home from '@/home.vue'
-import Reservation from '@/reservation.vue'
+import Home from '@/home'
+import Reservation from '@/reservation'
 
 import Vue from 'vue'
 import VueRouter from 'vue-router'
